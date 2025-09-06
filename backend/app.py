@@ -30,7 +30,7 @@ mongo = PyMongo(app)
 bcrypt = Bcrypt(app)
 
 # --- 6. Load ML Model ---
-MODEL_PATH = 'C:/Users/kulan/OneDrive/Desktop/shavindi/final/application/backend/university_recommendation_model.joblib'
+MODEL_PATH = 'C:/Users/User/Desktop/2 Sem/FinalProjectDoc/Application1/backend/university_recommendation_model.joblib'
 try:
     model = joblib.load(MODEL_PATH)
     print("✅ Model loaded successfully!")
